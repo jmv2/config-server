@@ -8,9 +8,13 @@ eureka:
     service-url:
       default-zone: http://B550-JMC:8761/eureka
   instance:
+<<<<<<< HEAD
     hostname: B550-JMC
   server:
     enable-self-preservation: false
+=======
+    hostname: localhost
+>>>>>>> parent of abcc0b8 (Disable self-preservation in gateway service)
 
 spring:
   cloud:
