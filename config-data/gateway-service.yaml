@@ -6,9 +6,9 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      default-zone: http://localhost:8761/eureka
+      default-zone: http://B550-JMC:8761/eureka
   instance:
-    hostname: localhost
+    hostname: B550-JMC
   server:
     enable-self-preservation: false
 
