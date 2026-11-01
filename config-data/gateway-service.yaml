@@ -11,9 +11,6 @@ eureka:
     hostname: localhost
   server:
     enable-self-preservation: false
-=======
-    hostname: localhost
->>>>>>> parent of abcc0b8 (Disable self-preservation in gateway service)
 
 spring:
   cloud:
