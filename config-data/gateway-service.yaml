@@ -9,11 +9,14 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     hostname: localhost
+    prefer-ip-address: true
   server:
     enable-self-preservation: false
 
 spring:
   cloud:
+    inetutils:
+      use-only-site-local-interfaces: true
     gateway:
       discovery:
         locator:
